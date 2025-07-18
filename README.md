@@ -23,7 +23,7 @@ A web-based mini project management system built using **PHP** and **MySQL**. Th
 
 To set up the database for this project, use the following SQL script:
 
-📄 [Download `project_manager_schema.sql`](project_manager_schema.sql)
+📄 [Download `db.sql`](db.sql)
 
 This script includes:
 - Creation of the database `project_manager`
