@@ -1,0 +1,117 @@
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f2f4f8;
+    color: #333;
+}
+
+/* Layout Wrapper */
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+
+
+/* Main Content */
+.content {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.welcome {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+input,
+button {
+    padding: 10px;
+    margin: 5px;
+    width: 200px;
+}
+
+.content {
+    flex: 1;
+    padding: 40px;
+    overflow-y: auto;
+}
+
+.content h2 {
+    margin-bottom: 10px;
+}
+/* dashboard style */
+
+.dashboard-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+.widgets {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.widget {
+    background-color: #fff;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.widget:hover {
+    transform: scale(1.02);
+}
+
+.widget h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.widget p {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin: 0;
+}
+
+/* assign_task style */
+form {
+    max-width: 600px;
+    margin-top: 40px;
+}
+
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+.success {
+    background-color: #d4edda;
+    padding: 10px;
+    color: #155724;
+    border-radius: 4px;
+    margin-bottom: 20px;
+}
